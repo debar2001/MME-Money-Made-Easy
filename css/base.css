@@ -1,0 +1,40 @@
+canvas{
+	    border: 1px solid black;
+		background-image: radial-gradient(circle, #84CEEB 40%,#5BA9EA 60%,#C1C8E4 80%,#8860D0 100%) ;
+}
+body{
+	margin: 0px;
+}
+button, .btn1{
+	background-image: linear-gradient(to right,#00cc66,#99ffcc);
+		border-radius: 25px;
+		font-family: sans-serif;
+		font-size: 12pt;
+		width: 120px;
+		height: 50px;
+}
+button:hover{
+	font-size: 20pt;
+	background-image: linear-gradient(to right,red,red);
+	color:white;
+	font-weight: bold;
+
+}
+.btn1:hover{
+	font-size: 20pt;
+	background-image: linear-gradient(to right,red,red);
+	color:white;
+	font-weight: bold;
+
+}
+img{
+	position:fixed;
+	top:10px;
+	left:20px;
+	width:200px;
+	height: 80px;
+}
+input,select{
+	border-radius: 5px;
+}
+

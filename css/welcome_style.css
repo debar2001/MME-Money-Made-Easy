@@ -1,0 +1,45 @@
+canvas{
+	    border: 1px solid black;
+		background-image: radial-gradient(circle, #84CEEB 40%,#5BA9EA 60%,#C1C8E4 80%,#8860D0 100%) ;
+}
+body{
+	margin: 0px;
+}
+img{
+	position:fixed;
+	top:100px;
+	left:330px;
+	width:600px;
+	height: 150px;
+}
+button{
+	background-image: linear-gradient(to right,#00cc66,#99ffcc);
+		border-radius: 25px;
+		font-family: sans-serif;
+		font-size: 12pt;
+		margin:0px;
+		width: 200px;
+		height: 50px;
+}
+button.home{
+	position: fixed;
+		top: 300px;
+		left: 530px;
+}
+button.login{
+		position: fixed;
+		top: 375px;
+		left: 530px;
+}
+button:hover{
+	font-size: 20pt;
+	background-image: linear-gradient(to right,red,red);
+	color:white;
+	font-weight: bold;
+
+}
+button.signup{
+		position: fixed;
+		top: 450px;
+		left: 530px;
+}

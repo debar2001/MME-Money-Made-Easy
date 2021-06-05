@@ -1,0 +1,37 @@
+button.login{
+	position: fixed;
+	top:10px;
+	left: 900px;
+	width:150px;
+	height:70px;
+}
+button.signup{
+	position: fixed;
+	top:10px;
+	left: 1090px;
+	width:150px;
+	height:70px;
+}
+h1{
+	background-image: linear-gradient(to right,#ff3333,#ffb3b3);
+	position: fixed;
+	top:105px;
+	left: 20px;
+	width:1230px;
+	height: 60px;
+	text-align: center;
+	font-family: cursive;
+	border-radius: 15px;
+}
+div{
+	position: fixed;
+	top:250px;
+	left: 430px;
+	width:400px;
+	height: 200px;
+	font-family: sans-serif;
+	font-size: 12pt;
+	border-radius: 15px;
+	background-image: linear-gradient(to right,#ff3333,#ffb3b3);
+	text-align: center;
+}

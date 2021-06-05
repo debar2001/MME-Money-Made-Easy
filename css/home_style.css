@@ -1,0 +1,54 @@
+button.login{
+	position: fixed;
+	top:10px;
+	left: 900px;
+	width:150px;
+	height:70px;
+}
+button.signup{
+	position: fixed;
+	top:10px;
+	left: 1090px;
+	width:150px;
+	height:70px;
+}
+table{
+	position: fixed;
+	top:105px;
+	left:20px;
+}
+td{
+	background-image: linear-gradient(to right,#ff3333,#ffb3b3);
+	margin-right: 3px;
+	font-family: sans-serif;
+	font-size: 20pt;
+	width:300px;
+	height:50px;
+	border-radius: 10px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+div{
+	position: fixed;
+	top:250px;
+	left: 20px;
+	width:1230px;
+	height: 200px;
+	font-family: sans-serif;
+	font-size: 12pt;
+	border-radius: 15px;
+	background-image: linear-gradient(to right,#ff3333,#ffb3b3);
+}
+h1{
+	text-align:center;
+	font-family: cursive;
+}
+td:hover, a:hover{
+	background-image: linear-gradient(to right, blue, blue);
+	font-size: 30pt;
+	font-weight:bold;
+	color:white;
+}	
