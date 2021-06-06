@@ -9,4 +9,4 @@ We worked on Xampp server for demo
 We have not included the database file as it had some sensitive information like our personal and college email addresses which was used to send OTP.
 
 How to Setup OTP/ Email Services in Xampp?
-Answer: You have to do certain changes in some files in Xampp and have to set up Mercury properly to get your email services underway.
+Answer: You have to do certain changes in some files in Xampp's php.ini file in php folder, sendmail.ini file in sendmail folder and have to set up Mercury's SMTP Server properly to get your email services underway.
