@@ -12,13 +12,13 @@
     {
     	$username = $_POST['username'];
     	$pw = $_POST['pw'];
-
     	$query = "SELECT * FROM useraccounts WHERE username ='".$username."'";
     	$result = mysqli_query($con, $query);
 
     	if ($result && mysqli_num_rows($result) > 0) 
       {
     		$user_data = mysqli_fetch_assoc($result);
+
          
          if($user_data['login_password'] === $pw)
          {
@@ -37,7 +37,7 @@
     	}
       else
       {
-         die(header("location: login_page.php?loginFailed=true"));
+         die(header("location: login_page.php?loginFailed1=true"));
       }
     	
     }

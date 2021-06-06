@@ -1,13 +1,8 @@
 <?php
 
-if (isset($_GET['loginFailed'])) {
-        $message = "You are not a MME User. Please Sign Up first.";
-        echo "<script type='text/javascript'>alert('$message');</script>";
-    }
-
 
 if (isset($_GET['loginFailed1'])) {
-        $message = "You entered wrong username.";
+        $message = "You are not a MME User. Please sign Up first./If already a user of MME, You entered wrong username";
         echo "<script type='text/javascript'>alert('$message');</script>";
     }
 

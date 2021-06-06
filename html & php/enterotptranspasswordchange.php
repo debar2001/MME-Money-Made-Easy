@@ -14,8 +14,9 @@ if(!isset($_SESSION['username'])){
    if(!strcmp($rno,$urno))
    {
     $account = $_SESSION['account_no'];
-    $updated_pass = $_SESSION['new_pass'];
+    $updated_pass = $_SESSION['newtranspass'];
     $query1 = "UPDATE useraccounts SET transaction_password = '".$updated_pass."' WHERE account_no = '".$account."'";
+    $_SESSION['transaction_password'] = $updated_pass;
     mysqli_query($con, $query1);
     header("location: confirmtranspasswordchange.php");
     die;

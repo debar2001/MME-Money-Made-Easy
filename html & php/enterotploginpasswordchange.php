@@ -14,8 +14,8 @@ if(!isset($_SESSION['username'])){
    if(!strcmp($rno,$urno))
    {
     $username = $_SESSION['username'];
-    $updated_pass = $_SESSION['new_pass'];
-    $query1 = "UPDATE useraccounts SET login_password = '".$updated_pass."' WHERE username = '".$username."'";
+    $updated_pass = $_SESSION['newlogpass'];
+    $query1 = "UPDATE useraccounts SET login_password = '$updated_pass' WHERE username = '$username'";
     mysqli_query($con, $query1);
     header("location: confirmloginpasswordchange.php");
     die;
