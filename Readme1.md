@@ -3,6 +3,8 @@ Project Title: MME: Money Made Easy
 This was a group Project for the course CSE3002- Internet and Web Programming.
 Created by: Debargha Guha Neogi, Ansh Chandarana and Harshvardhan Mishra.
 
+This is a payments service, targeted at users in colleges and universities. In this website, activities start with MME automating a customer account, which allows personnel to create, update and maintain customer records.
+
 We have used HTML5, CSS3 and JS in FrontEnd.
 We have used PHP, MySQL for BackEnd and Database respectively.
 We worked on Xampp server for demo
